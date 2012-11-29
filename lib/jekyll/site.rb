@@ -5,7 +5,7 @@ module Jekyll
   class Site
     attr_accessor :config, :layouts, :posts, :pages, :static_files,
                   :categories, :exclude, :include, :source, :dest, :lsi, :pygments,
-                  :permalink_style, :tags, :time, :future, :safe, :plugins, :limit_posts
+                  :permalink_style, :tags, :time, :future, :safe, :plugins, :limit_posts, :includes
 
     attr_accessor :converters, :generators
 
