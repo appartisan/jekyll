@@ -17,6 +17,7 @@ module Jekyll
 
       self.safe            = config['safe']
       self.source          = File.expand_path(config['source'])
+      self.includes        = config['includes'] || '_includes'
       self.dest            = File.expand_path(config['destination'])
       self.plugins         = Array(config['plugins']).map { |d| File.expand_path(d) }
       self.lsi             = config['lsi']
